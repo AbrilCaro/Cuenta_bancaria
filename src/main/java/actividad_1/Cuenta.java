@@ -59,11 +59,14 @@ public class Cuenta {
         return new Cuenta(numeroCuenta, dni, saldo);
     }
 
+    //ingresar dinero
     public void ingresar(double ingreso) {
         saldo += ingreso;
         System.out.println("Haz ingresado " + ingreso + " en tu cuenta.");
     }
 
+
+    //Retirar dinero
     public void retirar(double retiro) {
         if (saldo >= retiro) {
             saldo -= retiro;
@@ -76,18 +79,44 @@ public class Cuenta {
 
 
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
         Cuenta cuenta = Cuenta.crearCuenta();
         System.out.println("Su cuenta ha sido creada con exito");
         System.out.println("Numero de cuenta: " + cuenta.getNumeroCuenta());
         System.out.println("Numero de DNI: " + cuenta.getDni());
         System.out.println("Su saldo actual: " + cuenta.getSaldo());
 
-        cuenta.ingresar(500);
-        System.out.println("saldo despues del ingreso: $ " + cuenta.getSaldo());
+        System.out.println("Ingrese la cantidad a depositar");
+        double cantidadDeposito = scanner.nextDouble();
+        cuenta.ingresar(cantidadDeposito);
+        System.out.println("Su saldo actual despues del deposito: " + cuenta.getSaldo());
 
-        cuenta.retirar(200);
-        System.out.println("Su saldo despues de retirar: $" + cuenta.getSaldo());
+        System.out.println("Ingrese la cantidad a retirar");
+        double cantidadRetiro = scanner.nextDouble();
+        cuenta.retirar(cantidadRetiro);
+        System.out.println("Su saldo actual despues del retiro: " + cuenta.getSaldo());
 
 
     }
+
+    //extraccion ràpida
+
+    public void extraccionRapida () {
+        double extraccion = saldo * 0.2;
+        saldo -= extraccion;
+        System.out.println("Se ha realizado una extraccion de " + extraccion + "en su cuenta");
+
+    }
+
+    //Consultar saldo disponible
+
+    public double consultarSaldo () {
+        return saldo;
+    }
+
+    //Datos de la cuenta
+
+
 }

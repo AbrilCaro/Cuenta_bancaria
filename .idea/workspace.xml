@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0eecbd8a-f690-4ed3-9cd5-78064cb4d456" name="Changes" comment="ingreso y retiro">
+    <list default="true" id="0eecbd8a-f690-4ed3-9cd5-78064cb4d456" name="Changes" comment="ingreso y retiro mejorado">
+      <change afterPath="$PROJECT_DIR$/src/main/java/actividad_1/calculosFormas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/actividad_1/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actividad_1/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/actividad_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/actividad_1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,17 +19,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -48,6 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/uSer/Desktop/codeki_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1708130285029</updated>
       <workItem from="1708130286081" duration="6099000" />
-      <workItem from="1708269136982" duration="12641000" />
+      <workItem from="1708269136982" duration="14199000" />
+      <workItem from="1708907152448" duration="4445000" />
     </task>
     <task id="LOCAL-00001" summary="ingreso y retiro">
       <option name="closed" value="true" />
@@ -75,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708316588723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ingreso y retiro mejorado">
+      <option name="closed" value="true" />
+      <created>1708399460888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708399460888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ingreso y retiro" />
-    <option name="LAST_COMMIT_MESSAGE" value="ingreso y retiro" />
+    <MESSAGE value="ingreso y retiro mejorado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ingreso y retiro mejorado" />
   </component>
 </project>
